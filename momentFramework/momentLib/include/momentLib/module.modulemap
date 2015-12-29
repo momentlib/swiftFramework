@@ -1,0 +1,13 @@
+framework module momentFramework {
+    
+    
+    // Load a C header to be used in Swift - here /usr/include/sys/stat.h:
+    
+    export *
+
+}
+
+module MomentLib {
+    header "TimeParser.h"
+    export *
+}
